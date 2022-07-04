@@ -1,24 +1,25 @@
-import logo from './logo.svg';
+import axios from 'axios';
+import { useEffect } from 'react';
 import './App.css';
+import Card from './components/Card';
 
-function App() {
+
+
+const  App = ()=> {
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+      <section className="section">
+        {/* <h1 className="title">Les Citations Aléatoires des simpsons</h1> */}
+        <div className="app__title-img">
+          <img className="img-responsive center-block" src="https://cdn.glitch.com/3c3ffadc-3406-4440-bb95-d40ec8fcde72%2Fsimpsons.PNG?1497481539770"></img>
+        </div>
+        
+        <div className="container" >
+          <Card className ="card" id="simpson"/>
+          </div>
+      </section>
+      </div>
   );
 }
 

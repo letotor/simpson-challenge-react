@@ -17,6 +17,26 @@ h1 {
   text-align: center;
 }
 
+a:visited,a:link {
+  text-decoration: none;
+  color:white;
+}
+
+a{
+  transition: 0.6s 0s ease-in-out;
+}
+
+a:hover{
+  transform: scale(1.1);
+  cursor: pointer;
+  color: #999;
+}
+
+.flex-center{
+  display: flex;
+  justify-content: center;
+  color: white;
+}
 .container {
   padding-top: 2rem;
   display: block;
@@ -48,5 +68,12 @@ h1 {
 .app__title-img>img {
   width: 100%;
 }
+
+footer > a{
+  color:white;
+  text-decoration: none;
+  display:flex
+}
+
 
 }

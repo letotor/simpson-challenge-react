@@ -17,8 +17,13 @@ const  App = ()=> {
         
         <div className="container" >
           <Card className ="card" id="simpson"/>
+          <footer>
+            <h2 className="flex-center"><a href="https://github.com/letotor/simpson-challenge-react" target="_blank" rel="noreferrer">Github source</a></h2>
+          </footer>
           </div>
+        
       </section>
+     
       </div>
   );
 }
